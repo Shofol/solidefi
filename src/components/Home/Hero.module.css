@@ -1,0 +1,10 @@
+@media screen and (max-width: 600px) {
+  .heroLogo {
+    width: 230px;
+    height: 60px;
+  }
+  .shade {
+    width: 320px;
+    height: 16px;
+  }
+}

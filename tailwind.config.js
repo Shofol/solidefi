@@ -18,7 +18,14 @@ module.exports = {
         'rev-ver': "linear-gradient(180deg, #AE3AF5 0%, #6067F3 100%)",
       }),
       boxShadow: {
-        inner: '0px -2px 10px #0000004D;'
+        inner: '0px -2px 10px #0000004D;',
+        navInner: 'inset 0px 0px 6px #AE3AF5, 0px 0px 6px #AE3AF5;'
+      },
+      fontFamily: {
+        'botrio': ['Botrio', 'sans-serif']
+      },
+      maxWidth: {
+        'tiny': '17rem'
       }
     }
   },

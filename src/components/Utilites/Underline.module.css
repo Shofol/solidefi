@@ -15,3 +15,9 @@
   transform: translateX(-50%);
   position: absolute;
 }
+
+@media screen and (max-width: 768px) {
+  .underline {
+    margin: 0.5rem auto;
+  }
+}

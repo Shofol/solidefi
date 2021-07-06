@@ -7,6 +7,7 @@ import {
 import Home from './pages/home';
 import Navbar from './components/Utilites/Navbar';
 import Footer from './components/Footer';
+import Vote from './pages/vote';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home />
+        </Route>
+        <Route path="/vote">
+          <Vote />
         </Route>
       </Switch>
       <Footer />

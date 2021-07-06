@@ -5,7 +5,7 @@ const ItemContainer = (props: any) => {
 
     return (
         <div className={`${styles.container} ${side === 'r' ? styles.right : styles.left}`}>
-            <div className={`${styles.itemNumber} text-xl lg:text-4xl`}><span className="-mt-1">{index + 1}</span></div>
+            <div className={`${styles.itemNumber} text-xl lg:text-4xl`}><span className="mt-1 font-botrio">{index + 1}</span></div>
             <div className={styles.content}>
                 <div className={`${side === 'r' ? 'lg:pl-16 text-left' : 'lg:pr-16 text-left lg:text-right'}`}>
                     {props.children}

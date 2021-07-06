@@ -1,9 +1,9 @@
 const Button = (props: any) => {
 
-    const { text, classes } = props;
+    const { text, classes, onClick } = props;
 
     return (
-        <button className={`bg-ver text-gray-100 hover:opacity-90 ${classes}`}>
+        <button onClick={() => { onClick() }} className={`bg-ver text-gray-100 hover:opacity-90  ${classes}`}>
             {text}
         </button >
     )
