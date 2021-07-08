@@ -1,0 +1,32 @@
+.activeImageContainer {
+  width: 27rem;
+  height: 27rem;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.nftImageContainer {
+  width: 16rem;
+  height: 15rem;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.checkoutImageContainer {
+  width: 14.5rem;
+  height: 13.75rem;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .activeImageContainer {
+    width: 15.5rem;
+    height: 14.6rem;
+  }
+
+  .nftImageContainer {
+    width: 11.25rem;
+    height: 10.5rem;
+  }
+}

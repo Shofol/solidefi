@@ -6,7 +6,9 @@ module.exports = {
     extend: {
       colors: {
         'brand-primary': '#AE3AF5',
-        'brand-secondary': '#6067F3'
+        'brand-secondary': '#6067F3',
+        'brand-tertiary': '#4449AC',
+        'brand-dark': '#4B4B4B'
       },
       flex: {
         '2': '2 2 0%'

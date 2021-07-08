@@ -2,7 +2,7 @@ import Underline from '../Utilites/Underline';
 
 const Platform = () => {
     return (
-        <div className="text-white w-full mt-40 lg:mt-80">
+        <div id="platform" className="text-white w-full mt-40 lg:mt-80">
             <h2 className="text-center text-3xl lg:text-5xl font-botrio">Platform</h2>
             <Underline />
             <div className="px-7 lg:px-24 py-11 lg:py-14 text-sm lg:text-xl bg-ver mt-7 lg:mt-16">

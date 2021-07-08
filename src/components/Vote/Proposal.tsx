@@ -1,4 +1,5 @@
-import styles from './Proposal.module.css'
+import { Link } from 'react-router-dom';
+import styles from './Vote.module.css'
 
 const Proposal = (props: any) => {
 
@@ -6,6 +7,7 @@ const Proposal = (props: any) => {
 
     return (
         <div className="bg-hor p-px relative">
+            <Link to="/vote/detail" className="absolute inset-0 w-full h-full"></Link>
             <div className="bg-black">
                 <div className={"absolute right-0 top-0 rounded-br-lg text-xs lg:text-xl flex items-center text-white px-6 py-1 " + (isOpen ? 'bg-ver' : 'bg-gray-600')}><p>{isOpen ? 'Open' : 'Closed'}</p></div>
                 <div className="p-3 lg:p-8">

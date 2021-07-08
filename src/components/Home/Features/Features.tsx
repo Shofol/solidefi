@@ -35,7 +35,7 @@ const Features = () => {
     ]
 
     return (
-        <div className="text-white w-full px-5 lg:px-10 mt-40 lg:mt-80">
+        <div id="features" className="text-white mx-7 lg:mx-24 mt-40 lg:mt-80">
             <h2 className="text-center text-3xl lg:text-5xl font-botrio">Features</h2>
             <Underline />
             <div className={`${styles.timeline} mt-16 lg:mt-20`}>

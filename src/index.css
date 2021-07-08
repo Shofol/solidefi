@@ -18,9 +18,63 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #000000;
+  scroll-behavior: smooth;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+@media screen and (min-width: 769px) {
+  .react-datepicker__month-container {
+    width: 30vw !important;
+  }
+}
+
+.react-datepicker__month-container {
+  background: linear-gradient(180deg, #ae3af5 0%, #6067f3 100%) !important;
+  padding: 1rem;
+  font-family: "Montserrat", sans-serif !important;
+  color: white !important;
+}
+.react-datepicker__header {
+  background: transparent !important;
+}
+.react-datepicker__navigation {
+  top: 22px !important;
+}
+.react-datepicker__day-name,
+.react-datepicker__day,
+.react-datepicker__time-name {
+  color: white !important;
+  font-weight: bold;
+}
+.react-datepicker__current-month {
+  color: white !important;
+}
+
+.react-datepicker__day:hover,
+.react-datepicker__month-text:hover,
+.react-datepicker__quarter-text:hover,
+.react-datepicker__year-text:hover {
+  background-color: #6067f3 !important;
+}
+
+.react-datepicker__triangle {
+  display: none !important;
+}
+
+.backDrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
